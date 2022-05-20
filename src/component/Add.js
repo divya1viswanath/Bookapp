@@ -6,7 +6,7 @@ const Add = () => {
     var [price,setPrice]=useState("")
 
     const subData =() => {
-        const data = { "title":title,"auth":auth, "price": price, "pass": pass,"cpass":cpass }
+        const data = { "title":title,"auth":auth, "price": price }
         console.log(data)
 
     }
