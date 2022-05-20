@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Register from './Register'
 
 const Login = () => {
     var [user,setUser]=useState("")
@@ -11,6 +12,8 @@ const Login = () => {
     }
   return (
     <div>
+        
+    
         <div className="container">
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -27,7 +30,7 @@ const Login = () => {
                             <button onClick={subData} className="btn btn-success">LOGIN</button>
                         </div>
                         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                        <a href="Register.js" className="href">New user click here</a>
+                        <a href="{<Register/>}" className="href">New user click here</a>
                         </div>
                     
                     </div>
